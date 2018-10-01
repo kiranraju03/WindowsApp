@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk() #creates a window
 
-b1 = Button(window, text="run") #creates a button
+b1 = Button(window, text="run",bg="red",fg="blue") #creates a button
 b1.grid(row=0,column=0) # places the button on the window
 
 e1 = Entry(window) #creates an entry form
